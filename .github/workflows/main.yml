@@ -1,0 +1,11 @@
+name: Build with Home Clean
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: pmatos/action-clean@master
+      - uses: actions/checkout@v2
+      - run: echo Hello World 
