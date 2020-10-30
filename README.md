@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - uses: pmatos/action-home-clean@v1
+      - uses: pmatos/action-home-clean@v2
       - uses: actions/checkout@v2
       - run: echo Hello World 
 ```
