@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-      - uses: pmatos/action-clean@master
+      - uses: pmatos/action-home-clean@master
       - uses: actions/checkout@v2
       - run: echo Hello World 
